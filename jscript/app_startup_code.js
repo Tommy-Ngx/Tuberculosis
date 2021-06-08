@@ -36,7 +36,8 @@ let model;
 	//model = await tf.loadModel('http://tb.test.woza.work/model_tb_1/model.json');
 	//$("#selected-image").attr("src", "http://tb.test.woza.work/assets/tb_image.jpg");
 	model = await tf.loadModel('https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/model_tb_1/model.json');
-	$("#selected-image").attr("src", "https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/assets/tb_image.jpg")
+	//$("#selected-image").attr("src", "https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/assets/tb_image.jpg")
+	$("#selected-image").attr("src", "https://github.io/Tommy-Ngx/Tuberculosis/assets/tb_image.jpg")
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
