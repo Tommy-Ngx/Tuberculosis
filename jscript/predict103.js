@@ -45,8 +45,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://concept.test.woza.work/model_tb_1/model.json');
-	$("#selected-image").attr("src", "http://concept.test.woza.work/assets/tb.jpg")
+	model = await tf.loadModel('https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/model_tb_1/model.json');
+	$("#selected-image").attr("src", "https://github.com/Tommy-Ngx/Tuberculosis/blob/main/assets/tb.jpg")
 	
 	
 	
