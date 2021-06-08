@@ -46,7 +46,9 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/model_tb_1/model.json');
-	$("#selected-image").attr("src", "https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/assets/tb.jpg")
+	//$("#selected-image").attr("src", "https://raw.githubusercontent.com/Tommy-Ngx/Tuberculosis/main/assets/tb.jpg")
+	("#selected-image").attr("src", "https://github.io/Tommy-Ngx/Tuberculosis/assets/tb.jpg")
+	//http://concept.test.woza.work/assets/tb.jpg
 	
 	
 	
