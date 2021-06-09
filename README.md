@@ -2,7 +2,7 @@
 ## Tuberculosis-TB-Analyzer
 
 
-Live Web App: http://tb.test.woza.work/
+Live Web App: https://tommy-ngx.github.io/Tuberculosis/
 
 <br>
 
